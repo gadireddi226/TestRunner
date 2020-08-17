@@ -7,8 +7,6 @@ import org.junit.jupiter.api.Test;
 
 /**
  *
- *
- *
  * @author pthomas3
  */
 public class WebDockerRunner {
