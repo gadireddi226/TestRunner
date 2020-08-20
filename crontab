@@ -1,10 +1,10 @@
 #example that runs every minute for testing purposes
 * * * * * echo "Hello world" >> /var/log/cron.log 2>&1
+#update changes of files
 * * * * * crontab etc/cron.d/crontab
-*/5 * * * * /runTests.sh
 
 #define own scheduling rules
-#* * * * * chrome /sripts/runTests.sh
+#*/5 * * * * /runTests.sh
 #
 #tutorial 
 # ┌───────────── minute (0 - 59)
